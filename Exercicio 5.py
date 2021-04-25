@@ -1,0 +1,5 @@
+r = float(input('Quantos Kms você rodou ?'))
+d = int(input('Quantos dias você usou o carro?'))
+d1 = (d * 60)
+r1 = (r * 0.15)
+print(' Você usou o carro por {} dias e rodou {} kms , portanto deve pagar {:.2f}rs'.format(d, r, (d1+r1)))
